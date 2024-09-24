@@ -4,7 +4,7 @@ namespace Laraxot\Installer;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Laraxot\Installer\Commands\InstallerCommand;
+use Laraxot\Installer\Commands\InstallCommand;
 
 class InstallerServiceProvider extends PackageServiceProvider
 {
@@ -20,6 +20,6 @@ class InstallerServiceProvider extends PackageServiceProvider
             ->hasConfigFile()
             ->hasViews()
             ->hasMigration('create_installer_table')
-            ->hasCommand(InstallerCommand::class);
+            ->hasCommand(InstallCommand::class);
     }
 }

@@ -4,9 +4,9 @@ namespace Laraxot\Installer\Commands;
 
 use Illuminate\Console\Command;
 
-class InstallerCommand extends Command
+class InstallCommand extends Command
 {
-    public $signature = 'installer';
+    public $signature = 'xot:install';
 
     public $description = 'My command';
 
