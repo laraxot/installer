@@ -2,9 +2,9 @@
 
 namespace Laraxot\Installer;
 
+use Laraxot\Installer\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Laraxot\Installer\Commands\InstallCommand;
 
 class InstallerServiceProvider extends PackageServiceProvider
 {
